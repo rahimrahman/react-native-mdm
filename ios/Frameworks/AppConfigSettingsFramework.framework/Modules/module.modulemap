@@ -1,0 +1,11 @@
+framework module AppConfigSettingsFramework {
+  umbrella header "AppConfigSettingsFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module AppConfigSettingsFramework.Swift {
+    header "AppConfigSettingsFramework-Swift.h"
+    requires objc
+}
